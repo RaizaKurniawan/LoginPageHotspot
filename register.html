@@ -7,7 +7,7 @@
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <script src="js/jquery-3.3.1.slim.min.js"></script>
-    <title>Login Form</title>
+    <title>Register Form</title>
 </head>
 <body>
     <div class="container-fluid">
@@ -21,9 +21,13 @@
                     <img src="image/login.png" width="150px">
                 </div>
                 <div class="heading mb-4">
-                    <h4>Login into your account</h4>
+                    <h4>Create an account</h4>
                 </div>
                 <form>
+                <div class="form-input">
+                    <span><i class="fa fa-user"></i></span>
+                    <input type="email" placeholder="Full Name" required>
+                </div>
                 <div class="form-input">
                     <span><i class="fa fa-envelope"></i></span>
                     <input type="email" placeholder="Email Address" required>
@@ -33,23 +37,21 @@
                     <input type="password" placeholder="Password" required>
                 </div>
                 <div class="row mb-3">
-                    <div class="col-6 d-flex">
+                    <div class="col-12 d-flex">
                         <div class="custom-control custom-checkbox">
                             <input type="checkbox" class="custom-control-input" id="cb1">
-                            <label class="custom-control-label text-white" for="cb1">Remember Me</label>
+                            <label class="custom-control-label text-white" for="cb1">
+                                I agree all terms & conditions
+                            </label>
                         </div>
                     </div>    
-                        <div class="col-6 text-right">
-                                <a href="forget.html" class="forget-link">
-                                    Forget Password
-                                </a>
-                            </div>
+                        
                 </div>
                         <div class="text-left mb-3">
-                            <button type="submit" class="btn">Login</button>
+                            <button type="submit" class="btn">Register</button>
                         </div>
                 <div class="text-center mb-2">
-                    <div class="mb-3" style="color:#777">or login with</div>
+                    <div class="mb-3" style="color:#777">or register with</div>
                         <a href="" class="btn btn-social btn-facebook">
                             facebook
                         </a>
@@ -60,9 +62,9 @@
                             google
                         </a>
                 </div>
-                <div style="color: #777">Don't have an account
-                    <a href="register.html" class="register-link">
-                        Register here
+                <div style="color: #777">Already have an account
+                    <a href="login.html" class="login-link">
+                        Login here
                     </a>
                 </div>
                 </form>
