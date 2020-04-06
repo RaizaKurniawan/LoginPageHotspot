@@ -1,0 +1,11 @@
+.image-container{
+    background: url('image/bg.jpg') center no-repeat;
+    background-size: cover;
+    height: 100hv;
+}
+
+.form-container{
+    background-color: #ffcccc;
+    display: flex;
+    justify-content: center;
+}
